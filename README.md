@@ -15,7 +15,7 @@
 Link to download and administer here: 
 
 ``` Powershell
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="MiscRepair";$repo="PowershellScripts"'+(new-object System.net.webclient).DownloadString('https://github.com/Louisjreeves/MiscRepair/blob/89b54c3e2de097d0632bc8dd7b4d08dd5fe5fdb8/4CornersTestandGraph.zip'));Begin4corners.ps1
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="4corners";$repo="PowershellScripts"'+(new-object System.net.webclient).DownloadString('https://github.com/Louisjreeves/4corners/blob/2941f33c8f283760702a462e843dccedc2def8a3/CornersTestandGraph.zip'));Begin4corners.ps1
 ```
 
 
@@ -31,35 +31,35 @@ Below is some examples of what the automation looks like :
 
 
 
-What this script does:
+# What this script does: 
 
-Below are steps and screenshots with information on setting up the disk tests. 
+# Below are steps and screenshots with information on setting up the disk tests. 
 
 
 ⦁	Unzip 4Corner_Test.7z to “C:\Temp”.  Rename diskspd.__e to diskspd.exe
 ⦁	Remove the “renameme” extension name. 
 
-[link1](https://github.com/Louisjreeves/MiscRepair/blob/main/r1.bmp)
+ 
 
 ⦁	In an Admin PowerShell window go to the C:\temp directory and bring up the “DskSpd4C.ps1” file. 
 
- https://github.com/Louisjreeves/MiscRepair/blob/main/reame2.png
+
 
 
 ⦁	Type in the Drive Letter we’re testing, the example below is using “E”. 
 
- https://github.com/Louisjreeves/MiscRepair/blob/main/reame4.png
+ 
 
 
 ⦁	The testing will run for a few minutes before getting to the individual tests. 
 
- https://github.com/Louisjreeves/MiscRepair/blob/main/reame5.png
+ 
 
 
 ⦁	The tests will take some time to run.  The results are in the “TestDiskSpd” folder within the “testfile.dat” file. 
 
  
-https://github.com/Louisjreeves/MiscRepair/blob/main/reame6.png
+ 
 
 ⦁	Please run the test on each storage unit.  Also label them so we know which file comes from the Compellent and PowerStore units. 
 ⦁	Next zip files and send in for review. 
