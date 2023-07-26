@@ -15,7 +15,7 @@
 Link to download and administer here: 
 
 ``` Powershell
-echo 4corners;[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="4corners";$repo="PowershellScripts"'+(new-object net.webclient).DownloadString('https://github.com/Louisjreeves/4corners/blob/2fffd178fee395b6906ff42edf558b25b5a46315/Begin4corners.ps1'));Begin4corners.ps1
+echo 4corners;[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="4corners";$repo="PowershellScripts"'+(new-object net.webclient).DownloadString('https://raw.githubusercontent.com/Louisjreeves/4corners/main/Begin4corners.ps1'));Begin4corners.ps1
 
 ```
 
