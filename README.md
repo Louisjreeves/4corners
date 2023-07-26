@@ -15,7 +15,7 @@ corners test
 Link to download and administer here: 
 
 ``` Powershell
-echo corners;[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="corners";$repo="PowershellScripts"'+(new-object net.webclient).DownloadString('https://raw.githubusercontent.com/Louisjreeves/corners/main/Begin4corners.ps1]'));Begin4corners.ps1
+echo corners;[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="corners";$repo="PowershellScripts"'+(new-object net.webclient).DownloadString('https://raw.githubusercontent.com/Louisjreeves/corners/main/Begin4corners.ps1'));Begin4corners.ps1
 
 ```
 
