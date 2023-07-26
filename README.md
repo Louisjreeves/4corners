@@ -1,8 +1,8 @@
-# 4corners
+# corners
 
 
 
-4 corners test
+corners test
 
 
 ## Automation for making 4 Corners Disk Testing more successful. ##
@@ -15,7 +15,7 @@
 Link to download and administer here: 
 
 ``` Powershell
-echo 4corners;[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="4corners";$repo="PowershellScripts"'+(new-object net.webclient).DownloadString('https://raw.githubusercontent.com/Louisjreeves/4corners/main/Begin4corners.ps1]'));Begin4corners.ps1
+echo corners;[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;Invoke-Expression('$module="corners";$repo="PowershellScripts"'+(new-object net.webclient).DownloadString('https://raw.githubusercontent.com/Louisjreeves/corners/main/Begin4corners.ps1]'));Begin4corners.ps1
 
 ```
 
