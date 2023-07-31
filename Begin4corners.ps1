@@ -11,7 +11,7 @@ $myloca = "$mytemp\"
  try
  {
 
-$response = Invoke-WebRequest -Uri https://github.com/Louisjreeves/MiscRepair/raw/main/CornersTestandGraph2.0.zip -OutFile $MyTemp\CornersTestandGraph2.0.zip  
+$response = Invoke-WebRequest -Uri https://github.com/Louisjreeves/corners/raw/main/CornersTestandGraph2.0.zip -OutFile $MyTemp\CornersTestandGraph2.0.zip  
  } catch 
  {
     $StatusCode = $_.Exception.Response.StatusCode.value__
